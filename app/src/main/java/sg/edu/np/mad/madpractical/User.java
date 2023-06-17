@@ -3,10 +3,10 @@ package sg.edu.np.mad.madpractical;
 import android.view.View;
 
 public class User {
-    private String name;
-    private String description;
-    private int id;
-    private boolean followed;
+    public String name;
+    public String description;
+    public int id;
+    public boolean followed;
     public User() {
     }
     public User(String name, String description, int id, boolean followed) {
