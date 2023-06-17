@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
         myUser = new User("Hello World", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", 1, false);
 
-        TextView greeting = findViewById(R.id.textView);
+        TextView greeting = findViewById(R.id.nameTextView);
         greeting.setText(myUser.getName());
 
-        TextView description = findViewById(R.id.textView2);
+        TextView description = findViewById(R.id.descriptionTextView);
         description.setText(myUser.getDescription());
-        Button fllwBtn = findViewById(R.id.buttonFollow);
+        Button fllwBtn = findViewById(R.id.followButton);
         fllwBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
